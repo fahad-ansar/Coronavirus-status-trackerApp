@@ -1,4 +1,4 @@
-[![Python3](https://www.python.org/downloads)
+If you dont have python please install it from here: [Python3](https://www.python.org/downloads)
 
 
 # Coronavirus-status-trackerApp
