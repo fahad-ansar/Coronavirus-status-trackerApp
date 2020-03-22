@@ -1,8 +1,14 @@
+[![Python3](https://www.python.org/downloads)
+
+
 # Coronavirus-status-trackerApp
-Simple website that shows today's status worldwide and bt countries.
+Python app to check the corona virus status on your device that can compile and run python3
 
 
-
+### Instructions
+Download the python file and run on terminal or in an IDE to see status os coronavirus
+terminal command: 
+          python3 try.py
 
 
 
@@ -12,8 +18,6 @@ Simple website that shows today's status worldwide and bt countries.
 [Link to the data source](https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Confirmed.csv)
 
 ### External sources
-
-Data Sources:
 
 [World Health Organization (WHO)]( https://www.who.int/)
 
@@ -43,3 +47,8 @@ Data Sources:
 
 [Italy Ministry of Health:](http://www.salute.gov.it/nuovocoronavirus)
 
+
+
+### Credits
+Data source extraction and having an app for coronavirus status
+[Koushik](https://github.com/koushikkothagal)
