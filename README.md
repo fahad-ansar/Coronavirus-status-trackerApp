@@ -50,5 +50,5 @@ terminal command:
 
 
 ### Credits
-Data source extraction source and having an app for coronavirus status
+source of data extraction found  and concept having an app for coronavirus status from
 [Koushik](https://github.com/koushikkothagal)
