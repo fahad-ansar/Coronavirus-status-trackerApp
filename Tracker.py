@@ -11,8 +11,9 @@ countries = set()
 total = list()
 totalval =0
 
-for i in cg:
-    hjk = list(i)
+for i in range(len(cg)):
+    if i == 0: continue
+    hjk = list(cg[i])
     countries.add(hjk[1])
 
     o = list()
@@ -21,7 +22,7 @@ for i in cg:
 
 
 for i in total:
-    if i == '3/22/20': continue
+    if "/" in i: continue
     totalval = totalval + int(i)
 
 list(countries)
