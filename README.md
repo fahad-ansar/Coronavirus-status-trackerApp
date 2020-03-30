@@ -6,9 +6,14 @@ Python app to check the corona virus status on your device that can compile and 
 
 
 ### Instructions
-Download the python file and run on terminal or in an IDE to see status os coronavirus
-terminal command: 
-          python3 try.py
+Download the python file and run on terminal or in an IDE to see status of coronavirus
+terminal command:
+          lINUX
+                    python3 tracker.py
+          
+          wINDOWS
+                    pip install requests
+                    python3 tracker.py
 
 
 
