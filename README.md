@@ -15,7 +15,7 @@ terminal command:
 
 ### Data source (updated daily)
 
-[Link to the data source](https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Confirmed.csv)
+[Link to the data source](https://github.com/CSSEGISandData/COVID-19/)
 
 ### External sources
 
