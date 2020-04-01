@@ -49,6 +49,7 @@ for i in range(len(detail)):
         if 'Country/Region' in ct:
             continue
         if k==ct:
+
             detail[i][1] = detail[i][1] + int(bn)
 
 
@@ -56,9 +57,15 @@ for i in range(len(detail)):
 
 
 
-for i in detail:
-    print(i[0] + " :  " + str(i[1]))
+# for i in detail:
+#     print(i[0] + " :  " + str(i[1]))
 
+<<<<<<< HEAD:worldTracker.py
+# print("As of today " + str(date) + ": \n")
+# print("Total Cases: " + str(totalval))
+
+=======
 print("As of today " + str(date) + ": \n")
 print("Total Cases: " + str(totalval))
 time.sleep(5)
+>>>>>>> 0a15c400fdd5fc2c201418b90e5633bf2fa12e7b:Tracker.py
