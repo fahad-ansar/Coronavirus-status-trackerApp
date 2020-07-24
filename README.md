@@ -11,10 +11,12 @@ terminal command:
 
 
           lINUX
+                    sudo apt install python3-tik
                     python3 tracker.py
           
           wINDOWS
                     pip install requests
+                    sudo apt install python3-tik
                     python3 tracker.py
 
 
