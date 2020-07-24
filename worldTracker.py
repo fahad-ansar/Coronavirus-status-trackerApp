@@ -1,6 +1,7 @@
 import requests
 import csv
 import time
+from tkinter import *
 
 response = requests.get("https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv");
 
@@ -29,11 +30,21 @@ for i in total:
 
 list(countries)
 
+#GUI--------------------------------
+
+root = Tk()
+scroll = Scrollbar(root)
+root.title("Canada")
+lsit = Listbox(root, yscrollcommand = scroll.set(0,50), bg="black", fg="white", width =40 , height= 50)
+
+#------------------------------------
+
 
 detail = list()
 
 for i in countries:
     detail.append([i,0])
+
 
 date = cg[0][-1]
 
@@ -49,23 +60,28 @@ for i in range(len(detail)):
         if 'Country/Region' in ct:
             continue
         if k==ct:
-
             detail[i][1] = detail[i][1] + int(bn)
 
+for i in detail:
+    print(str(i[0]) + " : " + str(i[1]))
+    lsit.insert(END,str(i[0]) + " : " + str(i[1]) )
 
 
+lsit.insert(END,"")
+lsit.insert(END,"")
+lsit.insert(END,"As of today " + str(date) + ":")
+lsit.insert(END,"Total Cases World wide: " + str(totalval))
 
-
-
-# for i in detail:
-#     print(i[0] + " :  " + str(i[1]))
-
-<<<<<<< HEAD:worldTracker.py
-# print("As of today " + str(date) + ": \n")
-# print("Total Cases: " + str(totalval))
-
-=======
-print("As of today " + str(date) + ": \n")
-print("Total Cases: " + str(totalval))
+print("\nAs of today " + str(date) + ": \n")
+print("Total Cases World wide: " + str(totalval))
 time.sleep(5)
->>>>>>> 0a15c400fdd5fc2c201418b90e5633bf2fa12e7b:Tracker.py
+
+
+
+lsit.pack(side="left")
+
+scroll.config(command=lsit.yview())
+root.mainloop()
+
+
+
