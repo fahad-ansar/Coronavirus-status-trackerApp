@@ -21,6 +21,20 @@ terminal command:
 
 
 
+## ScreenShots
+
+
+Canada
+![image](https://user-images.githubusercontent.com/44476743/88730302-c5b06400-d103-11ea-89e1-88677fdd6f44.png)
+
+
+World
+![image](https://user-images.githubusercontent.com/44476743/88730395-f5f80280-d103-11ea-82f8-01439ce1b5fb.png)
+
+
+
+
+
 
 ### Data source (updated daily)
 
